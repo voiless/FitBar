@@ -1,0 +1,39 @@
+# SwiftPM
+.build/
+.swiftpm/
+Packages/
+
+# Xcode and user state
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcresult
+*.playground/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.app
+*.dSYM/
+*.xcarchive
+out/
+snapshots/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*api-key*.local
+groq-api-key.local
